@@ -81,7 +81,7 @@ pipeline {
             echo "✅ Application successfully deployed to Kubernetes"
         }
         failure {
-            echo "❌ Pipeline failed. Check logs."
+            echo "❌ Pipeline failed. Check ....."
         }
         always {
             echo "Pipeline execution finished...."
