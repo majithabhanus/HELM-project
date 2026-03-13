@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: go-app
-        image: majithas/todo-backend:latest
+        image: majithas/go-todo:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9000
