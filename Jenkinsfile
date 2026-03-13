@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/majithabhanus/HELM-KOPS-PROJECT.git',
+                    url: 'https://github.com/majithabhanus/HELM-project.git',
                     credentialsId: 'github-cred'
             }
         }
