@@ -84,7 +84,7 @@ pipeline {
             echo "❌ Pipeline failed. Check logs."
         }
         always {
-            echo "Pipeline execution finished."
+            echo "Pipeline execution finished...."
         }
     }
 }
