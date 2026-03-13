@@ -25,7 +25,7 @@ pipeline {
 
         stage('Build Backend Docker Image') {
             steps {
-                sh 'docker build -t ${BACKEND_IMAGE}:latest ./server/k8s'
+                sh 'docker build -t ${BACKEND_IMAGE}:latest ./server'
             }
         }
 
