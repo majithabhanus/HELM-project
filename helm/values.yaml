@@ -1,6 +1,6 @@
 frontend:
   image:
-    repository: majithas/todo-ui
+    repository: majithas/todo-frontend
     tag: latest
   service:
     type: NodePort
@@ -8,7 +8,7 @@ frontend:
 
 backend:
   image:
-    repository: majithas/todo-backend
+    repository: majithas/go-todo
     tag: latest
   service:
     type: ClusterIP
